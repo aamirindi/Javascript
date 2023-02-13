@@ -63,7 +63,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
     <script>
-        // creating button click sjow to hide navbar
+        //hide navbar
         let togglebtn = document.querySelector(".togglebtn");
         let nav = document.querySelector(".navlinks");
         let links = document.querySelector(".navlinks li");
@@ -72,7 +72,7 @@
             this.classList.toggle("click");
             nav.classList.toggle("open");
         })
-
+        //typed animation         
         let typed = new Typed(".input", {
             strings: ["Frontend Developer", "Web Developer", "Python Developer"],
             typedSpeed: 70,
